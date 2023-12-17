@@ -63,5 +63,9 @@ dependencies {
     androidTestImplementation 'androidx.compose.ui:ui-test-junit4'
     debugImplementation 'androidx.compose.ui:ui-tooling'
     debugImplementation 'androidx.compose.ui:ui-test-manifest'
-    implementation(project(':compose_test'))
+//    implementation(project(':compose_test'))
+//    implementation 'com.github.abdelrhmanelgendy:android_library:0709ac828a'
+//    implementation 'com.github.abdelrhmanelgendy:compose_test:1.0'
+    implementation 'com.github.abdo:abdo-activity-testing:1.0'
+//    implementation 'com.github.abdelrhmanelgendy:compose_test:-SNAPSHOT'
 }
