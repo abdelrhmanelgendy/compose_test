@@ -14,8 +14,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.platform.LocalContext
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.content.ContextCompat.startActivity
-import net.io.compose_test.AbdoActivity
-import net.io.test_use_compose_aar.ui.theme.Test_use_compose_aarTheme
+ import net.io.test_use_compose_aar.ui.theme.Test_use_compose_aarTheme
 
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -38,7 +37,6 @@ class MainActivity : ComponentActivity() {
 fun Greeting(name: String, modifier: Modifier = Modifier) {
     val context = LocalContext.current as MainActivity
    Button(onClick = {
-       context.startActivity(Intent(context, AbdoActivity::class.java))
 
    }) {
        Text(

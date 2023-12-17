@@ -66,6 +66,6 @@ dependencies {
 //    implementation(project(':compose_test'))
 //    implementation 'com.github.abdelrhmanelgendy:android_library:0709ac828a'
 //    implementation 'com.github.abdelrhmanelgendy:compose_test:1.0'
-    implementation 'com.github.abdelrhmanelgendy:compose_test:1.1'
+//    implementation 'com.github.abdelrhmanelgendy:compose_test:1.1'
 //    implementation 'com.github.abdelrhmanelgendy:compose_test:-SNAPSHOT'
 }

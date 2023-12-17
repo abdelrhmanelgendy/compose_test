@@ -17,4 +17,3 @@ dependencyResolutionManagement {
 rootProject.name = "test_use_compose_aar"
 include ':app'
 include ':compose_test'
-include ':xml_test'
